@@ -9,7 +9,7 @@ const Header = (): JSX.Element => {
                 <AccessTimeIcon />
                 <SearchContainer>
                     <Search>
-                        <input type="text" />
+                        <input type="text" placeholder="Search..." />
                     </Search>
                 </SearchContainer>
                 <HelpOutlineIcon />
