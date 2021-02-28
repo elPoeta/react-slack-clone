@@ -17,11 +17,11 @@ const App = (): JSX.Element => {
           <SideBar />
           <Router>
             <Switch>
-              <Route exact path="/">
-                <Login />
-              </Route>
-              <Route exact path="/room">
+              <Route path="/room">
                 <Chat />
+              </Route>
+              <Route path="/">
+                <Login />
               </Route>
             </Switch>
           </Router>
@@ -38,7 +38,7 @@ const Container = styled.div`
   width: 100%;
   height: 100vh;
   display: grid;
-  grid-template-rows: 38px auto;
+  grid-template-rows: 40px auto;
 `;
 
 const Main = styled.div`

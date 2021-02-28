@@ -2,7 +2,7 @@
 
 const SideBar = (): JSX.Element => {
     return (
-        <div style={{ background: '#611f69' }}>
+        <div style={{ background: '#3f1040' }}>
             sideBar
         </div>
     )
